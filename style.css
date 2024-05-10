@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'popins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* calculator portion only*/
+.Calculator {
+    border: 2px solid black;
+    padding: 30px 30px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    box-shadow: 0px 3px 15px rgba(42, 42, 54, 0.7);
+
+}
+
+/*button properties*/
+button {
+    border: 2px solid grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+    font-size: 22px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 1);
+    cursor: pointer;
+}
+
+input {
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: right;
+    font-size: 20px;
+
+
+}
+
+/* input ::placeholder {
+    text-align: right;
+} */
+
+.color {
+    background-color: orange;
+}
+
+*gap between last row* .gap {
+    margin: 35px;
+}
